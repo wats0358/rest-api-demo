@@ -33,11 +33,11 @@ To run the Flask API on your local machine:
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/wats0358/
+   git clone https://github.com/wats0358/students-rest-api
    
 2. Navigate to the project directory:
    ```bash
-   cd flask-rest-api-demo
+   cd students-rest-api
 3. Install the dependencies:
    ```bash
    pip install -r requirements.txt
@@ -45,9 +45,18 @@ To run the Flask API on your local machine:
    ```bash
    python3 app.py
 5. The API will be running at http://127.0.0.1:8000
-6. Use **test-api.http** to test the REST API using the REST Client extension in Visual Studio Code.
 
-## Deploying to Azure
+## Deploying to Azure Web App through VS Code
+
+1. Install Azure Tools
+
+2. Connect azure account
+
+3. Add new resource "Azure Web App"
+
+4. Select repository of the students-rest-api to deploy
+
+
 
 
 
